@@ -465,6 +465,11 @@ main {
   top: 13%;
   left: 53%;
 }
+.box-2 .image-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .image-3 {
   display: none;
 }
