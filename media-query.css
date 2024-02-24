@@ -21,7 +21,12 @@
     background-color: #687186;
     z-index: 4444;
     border-radius: 10px;
-  }
+
+    
+    
+ 
+}
+
 
   .header-2 {
     display: flex;
@@ -32,11 +37,13 @@
 
   .menu {
     display: none;
+
   }
 
   .menu.show-menu {
     display: flex;
-  }
+    
+}
 
   /* End-Header */
   main {
@@ -339,6 +346,10 @@
 .text-foot p {
     text-align: center;
 }
+.text-content {
+  
+    margin-right: 110px;
+}
 }
 
 @media screen and (min-width: 700px) and (max-width: 830px) {
@@ -583,19 +594,27 @@
     flex-direction: column;
     gap: 10px;
 }
+.text-content {
+  
+    margin-right: 110px;
+}
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1100px) {
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
   .container {
     margin-right: auto;
     margin-left: auto;
     width: 830px;
   }
-
+.list {
+    gap: 15px;
+    padding: 2px;
+}
   .featured-content {
     width: 100%;
     position: relative;
-    left: 6%;
+    left: 8%;
+
     display: flex;
   }
 
@@ -635,7 +654,7 @@
   }
 
   .box-2 .text-3 {
-    width: 65%;
+    width: 55%;
   }
 
   .box-2 .image-2 {
@@ -648,10 +667,12 @@
     width: 510px;
   }
   .centered-content {
-    width: 80%;
-    left: 10%;
-  }  footer {
-   
+    left: 26%;
+    width: 55%;
+
+  }  
+  
+  footer {
     padding-left: 0; 
     position: relative;
     justify-content: center;
@@ -761,10 +782,13 @@
     flex-direction: column;
     gap: 10px;
 }
-
+.text-content {
+  
+    margin-right: 110px;
+}
 }
 
-@media screen and (min-width: 1420px) and (max-width: 1450px) {
+@media screen and (min-width: 1420px) and (max-width: 1900px) {
   main {
     right: 1%;
   }
@@ -800,7 +824,10 @@
   }
 
   .box-2 .main-box-2 {
-    left: 4%;
+    left: 5%;
+    gap: 0;
+    top: 5%;
+    width: 50%;
   }
 
   .box-2 .title-box-2 h5 {
@@ -816,12 +843,11 @@
     left: 50%;
   }
 
-  .box-2 .image-2 img {
-    width: 720px;
-  }
+
   .centered-content {
-    width: 80%;
-    left: 4%;
+    width: 73%;
+    left: 15%;
+
   }
   footer .line {
     width: 58%;
@@ -858,7 +884,7 @@
 }
 .box-2 .image-2 {
   
-    left: 60%;
+    left: 65%;
 }
 .middle-section .box-2 {
     width: 2200px;
