@@ -104,7 +104,7 @@ header .humbrger-icon {
   line-height: 19px;
   letter-spacing: 0em;
 
-  color: var(--two-color);
+  color: var(--one-color);
   cursor: pointer;
   transition: 0.3s all;
   -webkit-transition: 0.3s all;
@@ -162,12 +162,18 @@ main {
   right: 8%;
 }
 
-.container .title h1 {
-  font-family: Inter;
+
+.title-main {
+  width: 1220px;
+}
+.container .title-main h1 {
+  font-family: inter;
   font-size: 96px;
   font-weight: 900;
   line-height: 103px;
   letter-spacing: 0em;
+  white-space: pre-line;
+
 
   color: var(--for-color);
 }
@@ -478,7 +484,7 @@ main {
 .centered-content {
   margin-top: 80px;
   position: relative;
-  left: 8%;
+  left: 9%;
   width: 1600px;
 }
 .rating {
@@ -565,6 +571,16 @@ main {
   letter-spacing: 0em;
   color: #4e5762;
 }
+
+ .card .ti-card {
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: #2A3848;
+
+}
 .footer-centered {
   display: flex;
   text-align: center;
@@ -616,7 +632,7 @@ main {
 /* Start-footer */
 
 footer {
-  margin-top: 120px;
+  margin-top: 108px;
   width: 100%;
   height: 611px;
   background-color: #272f37;
@@ -760,6 +776,7 @@ footer .line {
   display: flex;
   flex-direction: column;
   gap: 21px;
+  margin-top: 30px;
 }
 
 .icons .icon .whatsapp {
@@ -812,6 +829,9 @@ footer .line {
   width: 100%;
   height: 84px;
   background-color: #1d2630;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
 
   display: flex;
   justify-content: space-around;
