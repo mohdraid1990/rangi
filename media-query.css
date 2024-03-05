@@ -61,7 +61,7 @@
     width: 320px;
   }
 
-  .container .title h1 {
+  .container .title-main h1 {
     font-family: Inter;
     font-size: 26px;
     font-weight: 700;
@@ -227,7 +227,7 @@
 
   .centered-content .card {
     width: 335px;
-    height: auto;
+    height: auto !important;
   }
 
   .cards {
@@ -311,7 +311,7 @@
 
   .footer-detalis {
     position: absolute;
-    right: 27%;
+    right: 23%;
     display: flex;
     width: auto;
     top: 48%;
@@ -358,9 +358,12 @@
     margin-left: auto;
     width: 399px;
   }
-
-  .container .title h1 {
-    font-size: 32px;
+.title-main  {
+  width: 500px;
+}
+  .container .title-main h1 {
+    font-size: 39px;
+    line-height: 50px;
   }
 
   /* Start-Header */
@@ -604,7 +607,8 @@
   .container {
     margin-right: auto;
     margin-left: auto;
-    width: 830px;
+    width: 780px;
+
   }
 .list {
     gap: 15px;
@@ -614,15 +618,19 @@
     width: 100%;
     position: relative;
     left: 8%;
-
     display: flex;
   }
-
-  .container .title h1 {
-    font-family: Inter;
-    font-size: 74px;
+  .title-main {
+    width: 500px;
   }
-
+  .container .title-main h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .featured-content .content {
+    width: 400px;
+    margin-left: 47px;
+  }
   .col-1 {
     margin: 10px;
   }
@@ -789,8 +797,16 @@
 }
 
 @media screen and (min-width: 1420px) and (max-width: 1900px) {
+  .title-main  {
+    width: 800px;
+  }
+    .container .title-main h1 {
+      font-size: 60px;
+      line-height: 60px;
+  
+}
   main {
-    right: 1%;
+    right: 2%;
   }
 
   .featured-content {
@@ -802,6 +818,8 @@
   .featured-content .content {
     align-items: center;
     justify-content: center;
+
+    margin-left: 30px;
   }
 
   .mid-page {
@@ -824,10 +842,11 @@
   }
 
   .box-2 .main-box-2 {
-    left: 5%;
+    left: 6%;
     gap: 0;
-    top: 5%;
-    width: 50%;
+    top: 4%;
+    width: 40%;
+
   }
 
   .box-2 .title-box-2 h5 {
@@ -837,17 +856,23 @@
   .box-2 .text-3 {
     width: 97%;
   }
-
+  .text-mid {
+    margin-left: 20px;
+  }
   .box-2 .image-2 {
-    top: 11%;
+    top: 27%;
     left: 50%;
   }
 
 
   .centered-content {
     width: 73%;
-    left: 15%;
+    left: 6%;
 
+
+  }
+  footer {
+    margin-top: 95px;
   }
   footer .line {
     width: 58%;
@@ -872,6 +897,11 @@
 }
 
 
+}
+@media screen and (min-width: 1900px) and (max-width: 1990px) {
+  .title-main {
+    width: 1220px;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -902,4 +932,5 @@
     
     justify-content: space-evenly;
 }
+
 }
