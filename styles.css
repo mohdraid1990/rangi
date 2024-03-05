@@ -131,7 +131,7 @@ header .humbrger-icon {
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0em;
-  color: var(--two-color);
+  color: var(--one-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,7 +162,9 @@ main {
   right: 8%;
 }
 
-
+.title-main {
+  width: 1220px;
+}
 
 .container .title-main h1 {
   font-family: inter;
@@ -519,7 +521,7 @@ main {
 
 .card {
   width: 501px;
-  height: 270px;
+  height: 286px;
   background-color: #f4f4f4;
   padding: 20px;
   border-radius: 20px;
@@ -536,7 +538,10 @@ main {
   padding: 10px;
   gap: 20px;
 }
-
+.ti-card {
+  color: #2A3848;
+  font-size: 20px;
+}
 .card .text-card {
   display: flex;
   align-items: center;
@@ -622,7 +627,7 @@ main {
 /* Start-footer */
 
 footer {
-  margin-top: 108px;
+  margin-top: 104px;
   width: 100%;
   height: 611px;
   background-color: #272f37;
@@ -766,7 +771,7 @@ footer .line {
   display: flex;
   flex-direction: column;
   gap: 21px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .icons .icon .whatsapp {
