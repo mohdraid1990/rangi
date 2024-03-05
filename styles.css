@@ -162,9 +162,7 @@ main {
   right: 8%;
 }
 
-.title-main {
-  width: 1220px;
-}
+
 
 .container .title-main h1 {
   font-family: inter;
@@ -521,7 +519,7 @@ main {
 
 .card {
   width: 501px;
-  height: 286px;
+  
   background-color: #f4f4f4;
   padding: 20px;
   border-radius: 20px;
